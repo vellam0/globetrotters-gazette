@@ -1,0 +1,41 @@
+{% include "header.html" %}
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url({{ url_for('static', filename='img/about-bg.jpg')}})">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>About</h1>
+            <span class="subheading">This is what we do.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <p>Ready for a wild adventure? Where have your travel dreams taken you lately?
+          Welcome to Globetrotter's Gazette – where we spin tales, and share a hearty dose of wanderlust-infused wisdom.
+          We're your virtual travel companions, here to whisk you away on a journey across the globe, one article at a time.</p>
+        <p>At Globetrotter's Gazette, we're all about celebrating the magic of travel, from the awe-inspiring
+          landscapes to the hilarious mishaps and everything in between. Our team of quirky adventurers and seasoned
+          storytellers is dedicated to bringing you the juiciest travel tidbits,
+          the most drool-worthy food recommendations, and the wittiest anecdotes that'll have you snorting with laughter
+          and itching to pack your bags.</p>
+        <p>Join us as we traverse the globe, from the iconic landmarks to the hidden nooks and crannies,
+          uncovering the secret spots that will make your Instagram followers green with envy.
+          We'll dive headfirst into cultural delights, attempt daring escapades (with varying degrees of success),
+          and maybe even find ourselves lost in translation along the way.</p>
+        <button><a href="{{ url_for('get_all_posts') }}">Check it out!</a></button>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  {% include "footer.html" %}
