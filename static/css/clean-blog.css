@@ -76,6 +76,10 @@ content p {
   text-shadow: none;
 }
 
+img {
+object-fit: scale-down;
+}
+
 img::-moz-selection {
   color: #fff;
   background: transparent;
