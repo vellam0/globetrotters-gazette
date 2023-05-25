@@ -83,6 +83,11 @@ content p {
   text-shadow: none;
 }
 
+img {
+    max-width: 100%;
+    height: auto !important;
+}
+
 img::-moz-selection {
   color: #fff;
   background: transparent;
