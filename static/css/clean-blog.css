@@ -38,6 +38,13 @@ a:focus, a:hover {
   color: #0085A1;
 }
 
+article-content {
+    img, iframe {
+    max-width: 100%;
+    height: auto !important;
+    }
+}
+
 blockquote {
   font-style: italic;
   color: #868e96;
