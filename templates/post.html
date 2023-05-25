@@ -25,7 +25,9 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
-            <div class="container"> {{ post.body|safe }} </div>
+            <div class="col-lg-8 col-md-10 mx-auto" style="display:grid;">
+                {{ post.body|safe }}
+            </div>
           <hr>
 
             {% if current_user.id == 1 %}
